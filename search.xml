@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[嘻嘻]]></title>
-    <url>%2F2019%2F09%2F20%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog%2F</url>
-    <content type="text"><![CDATA[hhhhhhhh 123import osjinsihiprint("jjj")]]></content>
+    <title><![CDATA[xpath使用小技巧]]></title>
+    <url>%2F2018%2F05%2F25%2Fxpath%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7%2F</url>
+    <content type="text"><![CDATA[xpath获取A下所有的子链接: //A/child::*/@href xpath 使用单引号，使用双引号报语法错误 (如果外部使用单引号,内部就要使用双引号,反之使用单引号) li下或者p下包含strong标签或者其他的标签: //ul/li/descendant::text() //p/descendant::text() 如果一个div中包含多个class,选取其中一个的方法,用contains函数 //span[contains(@class,”vote-post-up”)]]]></content>
       <categories>
-        <category>搭建博客</category>
+        <category>爬虫</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[redis外部连接设置]]></title>
+    <url>%2F2018%2F05%2F24%2Fredis%E5%A4%96%E9%83%A8%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[1&gt;注释掉bind #bind 127.0.0.1 2&gt;默认不是守护进程方式运行，这里可以修改 daemonize no（一般设置为yes） 3&gt;禁用保护模式protected-mode no 也可以加bind ip 重启redis服务 sudo redis-server /etc/redis/redis.conf]]></content>
+      <categories>
+        <category>数据库</category>
       </categories>
       <tags>
-        <tag>python</tag>
-        <tag>R</tag>
+        <tag>redis</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F09%2F17%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[scrapy命令]]></title>
+    <url>%2F2018%2F05%2F23%2Fscrapy%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[查看是否成功scrapy settings --get=BOT_NAME 打印信息 scrapy crawl info scrapy crawl --help -o 将数据保存到指定文件 -t 指定数据的格式,支持的数据格式有xml,json,csv,pickle,marshal –logfile 存储错误日志的文件 -L 日志级别 –set 设置环境变量 保存数据: scrapy crawl university -t 数据格式 -o 指定的文件 -a 设定请求爬虫数量 -L日志级别 进入虚拟环境,运行以下命令 12345(scrapy) shanghaimei@shanghaimei:~$ scrapy shell "https://book.douban.com/"[s] shelp() Shell help (print this help)[s] view(response) View response in a browserIn [1]: 会发现返回403 1[s] response &lt;403 https://movie.douban.com&gt; 只要在命令上加请求头就正常返回了 1scrapy shell "https://movie.douban.com" -s USER_AGENT='Mozilla/5.0' 下面拿数据了,找打数据接口,执行 1234scrapy shell "https://movie.douban.com/j/search_subjects?type=tv&amp;tag=%E7%83%AD%E9%97%A8&amp;page_limit=50&amp;page_start=0" -s USER_AGENT='Mozilla/5.0'In [1]: view(response)Out[1]: True#返回一个txt的json数据文件]]></content>
+      <categories>
+        <category>爬虫</category>
+      </categories>
+      <tags>
+        <tag>scrapy</tag>
+      </tags>
   </entry>
 </search>

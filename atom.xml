@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-20T16:06:27.637Z</updated>
+  <updated>2019-09-23T14:03:04.848Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,34 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>嘻嘻</title>
-    <link href="http://yoursite.com/2019/09/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog/"/>
-    <id>http://yoursite.com/2019/09/20/我的第一篇blog/</id>
-    <published>2019-09-20T14:36:48.077Z</published>
-    <updated>2019-09-20T16:06:27.637Z</updated>
+    <title>xpath使用小技巧</title>
+    <link href="http://yoursite.com/2018/05/25/xpath%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <id>http://yoursite.com/2018/05/25/xpath使用小技巧/</id>
+    <published>2018-05-25T12:26:29.000Z</published>
+    <updated>2019-09-23T14:03:04.848Z</updated>
     
     <summary type="html">
     
-      测试使用
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/2018/05/25/xpath使用小技巧/3.png&quot; alt&gt;&lt;br&gt;xpath获取A下所有的子链接:   //A/child::*/@href&lt;/p&gt;
+&lt;p&gt;xpath
+        
+      
     
     </summary>
     
     
-      <category term="搭建博客" scheme="http://yoursite.com/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="爬虫" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB/"/>
     
-    
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
-    
-      <category term="R" scheme="http://yoursite.com/tags/R/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/09/17/hello-world/"/>
-    <id>http://yoursite.com/2019/09/17/hello-world/</id>
-    <published>2019-09-17T15:18:07.690Z</published>
-    <updated>2019-09-17T15:18:07.690Z</updated>
+    <title>redis外部连接设置</title>
+    <link href="http://yoursite.com/2018/05/24/redis%E5%A4%96%E9%83%A8%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://yoursite.com/2018/05/24/redis外部连接设置/</id>
+    <published>2018-05-24T12:26:29.000Z</published>
+    <updated>2019-09-23T15:05:04.571Z</updated>
     
     <summary type="html">
     
@@ -52,13 +55,47 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;p&gt;1&amp;gt;注释掉bind &lt;code&gt;#bind 127.0.0.1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;2&amp;gt;默认不是守护进程方式运行，这里可以修改 &lt;code&gt;daemonize
         
       
     
     </summary>
     
     
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="redis" scheme="http://yoursite.com/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>scrapy命令</title>
+    <link href="http://yoursite.com/2018/05/23/scrapy%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2018/05/23/scrapy命令/</id>
+    <published>2018-05-23T12:26:29.000Z</published>
+    <updated>2019-09-23T14:58:41.843Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;查看是否成功&lt;code&gt;scrapy settings --get=BOT_NAME&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;打印信息 &lt;code&gt;scrapy crawl info&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;scrapy  crawl 
+        
+      
+    
+    </summary>
+    
+    
+      <category term="爬虫" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB/"/>
+    
+    
+      <category term="scrapy" scheme="http://yoursite.com/tags/scrapy/"/>
     
   </entry>
   
