@@ -1,9 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Linux命令使用]]></title>
+    <url>%2F2018%2F06%2F11%2FLinux%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[ubuntu软件安装与卸载1234567891011121314151617apt-get install 下载sudo apt-get update 更新源sudo apt-get install package 安装包sudo apt-get remove package 删除包sudo apt-cache search package 搜索包sudo apt-cache show package 获取包的相关信息，如说明、大小、版本等sudo apt-get install package --reinstall 重新安装包sudo apt-get -f install 修复安装sudo apt-get remove package --purge 删除包，包括配置文件等sudo apt-get build-dep package 安装相关的编译环境sudo apt-get upgrade 更新已安装的包sudo apt-get dist-upgrade 升级系统sudo apt-cache depends package 了解使用该包依赖哪些包sudo apt-cache redepends package 查看该包被哪些包依赖sudo apt-get source package 下载该包的源代码sudo apt-get clean &amp;&amp; sudo apt-get autoclean 清理无用的包sudo apt-get check 检查是否有损坏的依赖 手动安装python环境12345678910111213sudo apt-get update sudo apt-get install software-properties-common sudo add-apt-repository ppa:jonathonf/python-3.6 sudo apt-get update sudo apt-get install python3.6 cd /usr/bin ls | grep python sudo rm python sudo ln -s python3.6m python sudo apt install python3-pip pip --version python pip install --upgrade pip pip --version sublime text 3解决中文输入123456789101112sudo apt-get update &amp;&amp; sudo apt-get upgradegit clone https://github.com/lyfeyaj/sublime-text-imfix.git(https://github.com/lyfeyaj/sublime-text-imfix.git)cd sublime-text-imfix./sublime-imfixsublime光标设置按住insert +shift 光标就由横线变成竖线了 虚拟环境virtualenv安装 123456789sudo apt install virtualenvsudo apt install virtualenvwrappermkdir ~/.virtualenvssudo vim ~/.bashrc 文件末尾添加（注意virtualenvwrapper.sh的路径可以用whereis virtualenvwrapper来寻找，进入目录后ls一下看看有没有virtualenvwrapper.sh这个文件）export WORKON_HOME=$HOME/.virtualenvssource /usr/local/bin/virtualenvwrapper.sh退出后执行source ~/.bashrc 创建 123456789查看版本号： virtualenv --version格式： mkvirtualenv 虚拟环境名称 （此环境是根据系统变量环境创建的，为py2）创建py3虚拟环境： 找到python3的路径 which python3 /usr/bin/python3 mkvirtualenv --python=/usr/bin/python3 虚拟环境名称 查看虚拟环境 1workon 两下tab键 进入虚拟环境 1workon 虚拟环境名称 退出虚拟环境 12deactivate记不住可deac tab自动补全退出 删除虚拟环境 1rmvirtualenv 虚拟环境名称 说明 1所有的虚拟环境，都位于/home/.virtualenvs目录下 终端启动Pycharm1终端进入文件的bin目录：运行./pycharm.sh linux下安装PhantomJS下载地址 1http://phantomjs.org/download.html 进入下载目录解压 1tar jxvf phantomjs-2.1.1-linux-x86_64.tar.bz2 移动 12sudo mv -f phantomjs /usr/bin/phantomjssudo ln -s /usr/bin/phantomjs /usr/local/bin/phantomjs Linux下远程连接服务器上传文件在Liunx下打开终端(都是在本地操作)远程连接服务器 1ssh root@ip地址 拷贝文件或者文件夹从本地上传到服务器 1scp -r /home/shanghaimei/Downloads/380/ root@ip地址:/home/zacks/work/ 从服务器下载到本地 1scp -r root@ip地址:/home/zacks/work/ico-1.0/download.html /home/shanghaimei/Desktop/ Linux命令解压打包1234567.tar解包：tar xvf FileName.tar打包：tar cvf FileName.tar DirName.gz解压：gunzip FileName.gz压缩：gzip FileName]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux下安装chromedriver]]></title>
+    <url>%2F2018%2F06%2F10%2FLinux%E4%B8%8B%E5%AE%89%E8%A3%85chromedriver%2F</url>
+    <content type="text"><![CDATA[12345678910111213在官网下载对应的版本https://sites.google.com/a/chromium.org/chromedriver/进入到下载目录unzip chromedriver_linux64.zip移动到相应目录sudo mv -f chromedriver /usr/local/bin/chromedriversudo ln -s /usr/local/bin/chromedriver /usr/bin/chromedriver测试是否成功from selenium import webdriver browser = webdriver.Chrome()]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python字典key替换]]></title>
+    <url>%2F2018%2F06%2F09%2Fpython%E5%AD%97%E5%85%B8key%E6%9B%BF%E6%8D%A2%2F</url>
+    <content type="text"><![CDATA[123456coninfos = response.xpath('//*[@id="app"]/div[3]/div/div[2]/main/div[2]/div/div')datadict = &#123;"状态":"status","货币符号":"symbol","开始日期":"start_date","结束日期":"end_date","目标下限":"soft_cap","目标上限":"hard_cap","初始价格":"initial_price","代币数":"token_supply","募集金额":"collection_amount"&#125; for coninfo in coninfos: key = coninfo.xpath('./div[1]/text()').get() value = coninfo.xpath('./div[2]/text()').get() item[datadict[key]] = value]]></content>
+      <categories>
+        <category>爬虫</category>
+      </categories>
+      <tags>
+        <tag>Scrapy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[配置Django返回API接口]]></title>
+    <url>%2F2018%2F06%2F08%2F%E9%85%8D%E7%BD%AEDjango%E8%BF%94%E5%9B%9EAPI%E6%8E%A5%E5%8F%A3%2F</url>
+    <content type="text"><![CDATA[1.settings.py中设置redis取数据 12345REDIS = &#123; 'host': '127.0.0.1', 'port': 6379, 'db': 0,&#125; 2.settings.py中添加创建的APP （ INSTALLED_APPS） 1234567891011INSTALLED_APPS = [ 'django.contrib.admin', 'django.contrib.auth', 'django.contrib.contenttypes', 'django.contrib.sessions', 'django.contrib.messages', 'django.contrib.staticfiles', # 'rest_framework', # 'rest_framework_swagger', 'my_test',] 3.配置项目中的urls.py设置总路由（django版本不同，设置不同，可参考官网） 123456789101112from django.conf.urls import url,includefrom django.contrib import admin# from rest_framework.schemas import get_schema_view# from my_test.views import ReturnJson# from . import viewsurlpatterns = [ url(r'^admin/', admin.site.urls), url(r'^', include("my_test.urls", namespace="my_test")), #版本1.11.4 # url(r'^index/',get_schema_view()), # url(r'^alldata/', ReturnJson.as_view()),] 4.在创建的app中编辑views.py,例取全部数据以json格式返回数据 12345678910111213141516171819#-*- coding:utf-8 -*-from django.shortcuts import renderfrom django.conf import settingsfrom django.core.cache import cache# from dss.Serializer import serializer# from rest_framework.views import APIViewfrom redis import Redisimport jsonfrom django.http import HttpResponse,HttpRequestrds = Redis(**settings.REDIS)def alldata(request): values = [] for value in rds.sscan_iter('chinadata'): value = value.decode('utf-8') val = json.loads(value) values.append(val) return HttpResponse(json.dumps(values),content_type="application/json;charset=utf-8") 按字段分类取数据 123456789101112131415def going(request): values = [] # key = rds.keys()[0] for value in rds.sscan_iter('chinadata'): # print(type(value)) #bytes value = value.decode('utf-8') # print(type(value)) # str val = json.loads(value) # print(type(val)) #dict status = val["status"] if val["status"] == '准备中': values.append(val) # print(type(values)) #list return HttpResponse(json.dumps(values,ensure_ascii=False),content_type="application/json;charset=utf-8") 5.设置APP中的urls.py， 1234567from django.conf.urls import urlfrom . import viewsurlpatterns = [ url(r'^alldata/$', views.alldata), url(r'^going/$',views.going),] 6.运行 1python manage.py runserver]]></content>
+      <categories>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>Django</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Mac快捷键和触控板使用]]></title>
+    <url>%2F2018%2F06%2F05%2F%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%92%8C%E8%A7%A6%E6%8E%A7%E6%9D%BF%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122232425cmd + 空格 打开Spotlight搜索cmd + shift + 3 截取全部屏幕cmd + shift + 4 截取所选屏幕区域，或按空格键捕捉一个窗口点击文件 + return 重命名cmd + N 新建文件夹点击废纸篓 + cmd + shift + del 清空废纸篓选中文件 + cmd + del 将文件移至废纸篓 cmd + F 搜索浏览器中 + cmd + W 关闭当前窗口 三个手指滑动 切换全屏两个手指在右边向里滑动，打开今天通知中心两个手指左右滑动 在页面之间轻扫三个手指向上轻扫 Mission Control三个手指向下轻扫 应用Expose捏拢拇指和其他三个手指 显示应用程序张开拇指和其他三个手指 显示桌面三个手指轻点 查找与数据检测器（字典）两个手指轻点 右击一个手指轻点 左击两个手指上下移动 网页上下滚动两个手指捏合 放大或者缩小两个手指轻点两下 智能缩放两个手指旋转 照片旋转]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Django-models定义属性]]></title>
+    <url>%2F2018%2F06%2F04%2FDjango-models%E5%AE%9A%E4%B9%89%E5%B1%9E%E6%80%A7%2F</url>
+    <content type="text"><![CDATA[概述 ·django根据属性的类型确定以下信息 ·当前选择的数据库支持字段的类型 ·渲染管理表单时使用的默认html控件 ·在管理站点最低限度的验证 ·django会为表增加自动增长的主键列，每个模型只能有一个主键列，如果使用选项设置某属性为主键列后，则django不会再生成默认的主键列 ·属性命名限制 ·不能是python的保留关键字 ·由于django的查询方式，不允许使用连续的下划线 库 ·定义属性时，需要字段类型，字段类型被定义在django.db.models.fields目录下，为了方便使用，被导入到django.db.models中 ·使用方式 ·导入from django.db import models ·通过models.Field创建字段类型的对象，赋值给属性 逻辑删除 ·对于重要数据都做逻辑删除，不做物理删除，实现方法是定义isDelete属性，类型为BooleanField，默认值为False 字段类型 ·AutoField ·一个根据实际ID自动增长的IntegerField，通常不指定如果不指定，一个主键字段将自动添加到模型中 ·CharField(max_length=字符长度) ·字符串，默认的表单样式是 TextInput ·TextField ·大文本字段，一般超过4000使用，默认的表单控件是Textarea ·IntegerField ·整数 ·DecimalField(max_digits=None, decimal_places=None) ·使用python的Decimal实例表示的十进制浮点数 ·参数说明 ·DecimalField.max_digits ·位数总数 ·DecimalField.decimal_places ·小数点后的数字位数 ·FloatField ·用Python的float实例来表示的浮点数 ·BooleanField ·true/false 字段，此字段的默认表单控制是CheckboxInput ·NullBooleanField ·支持null、true、false三种值 ·DateField[auto_now=False, auto_now_add=False]) ·使用Python的datetime.date实例表示的日期 ·参数说明 ·DateField.auto_now ·每次保存对象时，自动设置该字段为当前时间，用于&quot;最后一次修改&quot;的时间戳，它总是使用当前日期，默认为false ·DateField.auto_now_add ·当对象第一次被创建时自动设置当前时间，用于创建的时间戳，它总是使用当前日期，默认为false ·说明 ·该字段默认对应的表单控件是一个TextInput. 在管理员站点添加了一个JavaScript写的日历控件，和一个“Today&quot;的快捷按钮，包含了一个额外的invalid_date错误消息键 ·注意 ·auto_now_add, auto_now, and default 这些设置是相互排斥的，他们之间的任何组合将会发生错误的结果 ·TimeField ·使用Python的datetime.time实例表示的时间，参数同DateField ·DateTimeField ·使用Python的datetime.datetime实例表示的日期和时间，参数同DateField ·FileField ·一个上传文件的字段 ·ImageField ·继承了FileField的所有属性和方法，但对上传的对象进行校验，确保它是个有效的image 字段选项 ·概述 ·通过字段选项，可以实现对字段的约束 ·在字段对象时通过关键字参数指定 ·null ·如果为True，Django 将空值以NULL 存储到数据库中，默认值是 False ·blanke ·如果为True，则该字段允许为空白，默认值是 False ·注意 ·null是数据库范畴的概念，blank是表单验证证范畴的 ·db_column ·字段的名称，如果未指定，则使用属性的名称 ·db_index ·若值为 True, 则在表中会为此字段创建索引 ·default ·默认值 ·primary_key ·若为 True, 则该字段会成为模型的主键字段 ·unique ·如果为 True, 这个字段在表中必须有唯一值 关系 ·分类 ·ForeignKey：一对多，将字段定义在多的端中 ·ManyToManyField：多对多，将字段定义在两端中 ·OneToOneField：一对一，将字段定义在任意一端中 ·用一访问多 ·格式 ·对象.模型类小写_set ·示例 grade.students_set ·用一访问一 ·格式 ·对象.模型类小写 ·示例 ·grade.students ·访问id ·格式 ·对象.属性_id ·示例 ·student.sgrade_id]]></content>
+      <categories>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>Django</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python创建Django项目流程]]></title>
+    <url>%2F2018%2F06%2F03%2Fpython%E5%88%9B%E5%BB%BADjango%E9%A1%B9%E7%9B%AE%E6%B5%81%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[1.进入虚拟环境，查看当前django版本 12345workon 虚拟环境名称ipythonimport djangodjango.get_version()#返回"1.11.4" 2.创建项目 1django-admin.py startproject 项目名称 3.创建项目中的app 12cd 项目名称 python manage.py startapp app名称 4.运行项目 1python manage.py runserver 12345678June 01, 2018 - 09:21:18Django version 1.11.4, using settings 'test_interface.settings'Starting development server at http://127.0.0.1:8000/Quit the server with CONTROL-C.[01/Jun/2018 09:22:12] "GET / HTTP/1.1" 200 1716Not Found: /favicon.ico[01/Jun/2018 09:22:15] "GET /favicon.ico HTTP/1.1" 404 1970[01/Jun/2018 09:35:14] "GET / HTTP/1.1" 200 1716 5.访问Starting development server at http://127.0.0.1:8000/中的http://127.0.0.1:8000/ 6.项目完成！]]></content>
+      <categories>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>Django</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python中把ISO-8859-1编码转化为UTF-8]]></title>
+    <url>%2F2018%2F06%2F02%2Fpython%E4%B8%AD%E6%8A%8AISO-8859-1%E7%BC%96%E7%A0%81%E8%BD%AC%E5%8C%96%E4%B8%BAUTF-8%2F</url>
+    <content type="text"><![CDATA[当我们爬取一些页面的中文信息时，会出现如下情况：爬取的中文编码格式不是UTF-8,无法正常显示，查看编码格式：编码格式为ISO-8859-1（长见识啦~）我们先定义一个这种编码的字符串：先编码后解码完整流程爬取内容变为中文 encode(编码)：按照某种规则将“文本”转换为“字节流”，unicode转化为str decode(解码)：将“字节流”按照某种规则转换成“文本”，str转化为unicode s.decode(‘ ‘)：运行会出错。因为python 3中的str类型对象有点像Python 2中的unicode， 而decode是将str转为unicode编码，所以str仅有一个encode方法，调用这个方法后将产生一个编码后的byte类型的字符。AttributeError: ‘str’ object has no attribute ‘decode’AttributeError: ‘bytes’ object has no attribute ‘encode’]]></content>
+      <categories>
+        <category>爬虫</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Scrapy创建scrapy爬虫项目]]></title>
+    <url>%2F2018%2F06%2F01%2FScrapy%E5%88%9B%E5%BB%BAscrapy%E7%88%AC%E8%99%AB%E9%A1%B9%E7%9B%AE%2F</url>
+    <content type="text"><![CDATA[1.在终端进入安装好依赖的虚拟环境，执行命令 1scrapy startproject 项目名称 提示进入 项目名称 并执行scrapy genspider example example.com 2.查看项目结构3.cd 进入项目名称 执行scrapy genspider 主爬虫文件名 爬虫基础的域名(主爬虫文件名不可与项目名重复，爬虫基础域名格式为xxx.com) 12cd chinadatascrapy genspider chinainfo zh.coinjinja.com 4.查看项目结构，在spiders文件夹中多出chinainfo.py的文件，此文件写主爬虫，name为刚才创建的主爬虫文件名。要引入文件夹中的items.py中的item类!!5.运行爬虫 1scrapy crawl 主爬虫文件名 6.将数据保存到本地文件 1保存数据: scrapy crawl 主爬虫文件名 -t 数据格式 -o 指定的文件 -a 设定请求爬虫数量 -L日志级别]]></content>
+      <categories>
+        <category>爬虫</category>
+      </categories>
+      <tags>
+        <tag>scrapy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux下使用git]]></title>
+    <url>%2F2018%2F05%2F28%2FLinux%E4%B8%8B%E4%BD%BF%E7%94%A8git%2F</url>
+    <content type="text"><![CDATA[安装 1sudo apt-get install git 配置 12git config --global user.name "git注册的用户名"git config --global user.email "git注册的邮箱" 生成密钥 12ssh-keygen -t rsa -C "git注册的邮箱"提示输入密码 GitHub上添加公有密钥 12345678910111213github上操作： 登陆GitHub官网 点击头像 下拉选择Settings点击进入 右栏选择SSH and GPG keys点击 会出现SSH KeysLinux系统下操作： 进入.ssh下面会有三个文件 id_rsa id_rsa.pub know_hosts cat id_rsa.pub 会出现一串公钥github上操作： 点击New SSH key添加到github（注意后面的邮箱要删掉） 验证密钥是否通过 1ssh -T git@github.com 测试 123456git clone https://github.com/...git status 查看状态git add 状态的连接选择要提交的修改文件（git add . 为全部提交）git commit -m "说明" （git commit -a 为提交全部，可省略git add）git push 上推git pull 下拉]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[python连接firebase云数据库]]></title>
+    <url>%2F2018%2F05%2F26%2Fpython%E8%BF%9E%E6%8E%A5firebase%E4%BA%91%E6%95%B0%E6%8D%AE%E5%BA%93%2F</url>
+    <content type="text"><![CDATA[1.创建项目，点击启用，测试 2.将 Firebase Admin SDK 添加到您的 Python 应用中 1pip install --upgrade firebase-admin 3.进入项目，左上设置用户和权限，点击服务账号，生成新的私钥json文件下载到本地，使用该文件初始化SDK 4.代码段 12345678910111213141516171819202122232425262728293031323334353637383940import firebase_adminfrom firebase_admin import credentialsfrom firebase_admin import firestore# Use a service accountcred = credentials.Certificate('json文件路径')firebase_admin.initialize_app(cred)db = firestore.client()#创建一个新集合和一个新文档doc_ref = db.collection(u'users').document(u'alovelace')doc_ref.set(&#123; u'first': u'Ada', u'last': u'Lovelace', u'born': 1815&#125;)#将另一个文档添加到 users 集合doc_ref = db.collection(u'users').document(u'aturing')doc_ref.set(&#123; u'first': u'Alan', u'middle': u'Mathison', u'last': u'Turing', u'born': 1912&#125;)#使用“get”方法来检索整个集合users_ref = db.collection(u'users')docs = users_ref.get()for doc in docs: print(u'&#123;&#125; =&gt; &#123;&#125;'.format(doc.id, doc.to_dict())) python连接redis测试 12345import redisr = redis.StrictRedis('localhost',6379，decode_responses=True)value = r.set('name','zhangsan')print(value)#返回True *连接redis，加上decode_responses=True，写入的键值对中的value为str类型，不加这个参数写入的则为字节类型。 小知识:json.dumps()：接收python类型的数据作为参数，返回了一个str对象的encodedjson（从python数据转换为json） json.loads()：接收json字符串，返回python类型的数据（从json字符串转换为python数据）]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[xpath使用小技巧]]></title>
     <url>%2F2018%2F05%2F25%2Fxpath%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7%2F</url>
-    <content type="text"><![CDATA[xpath获取A下所有的子链接: //A/child::*/@href xpath 使用单引号，使用双引号报语法错误 (如果外部使用单引号,内部就要使用双引号,反之使用单引号) li下或者p下包含strong标签或者其他的标签: //ul/li/descendant::text() //p/descendant::text() 如果一个div中包含多个class,选取其中一个的方法,用contains函数 //span[contains(@class,”vote-post-up”)]]]></content>
+    <content type="text"><![CDATA[xpath获取A下所有的子链接: //A/child::*/@href xpath 使用单引号，使用双引号报语法错误 (如果外部使用单引号,内部就要使用双引号,反之使用单引号) li下或者p下包含strong标签或者其他的标签: //ul/li/descendant::text() //p/descendant::text() 如果一个div中包含多个class,选取其中一个的方法,用contains函数 //span[contains(@class,&quot;vote-post-up&quot;)]]]></content>
       <categories>
         <category>爬虫</category>
       </categories>
