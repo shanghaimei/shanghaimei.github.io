@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-26T15:40:54.520Z</updated>
+  <updated>2019-10-18T13:20:13.374Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Linux命令使用</title>
-    <link href="http://yoursite.com/2018/06/11/Linux%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/"/>
-    <id>http://yoursite.com/2018/06/11/Linux命令使用/</id>
-    <published>2018-06-10T16:00:00.000Z</published>
-    <updated>2019-09-26T15:40:54.520Z</updated>
+    <title>python的requests库</title>
+    <link href="http://yoursite.com/2018/09/18/python%E7%9A%84requests%E5%BA%93/"/>
+    <id>http://yoursite.com/2018/09/18/python的requests库/</id>
+    <published>2018-09-17T16:00:00.000Z</published>
+    <updated>2019-10-18T13:20:13.374Z</updated>
     
     <summary type="html">
     
@@ -29,203 +29,8 @@
       
         
         
-          &lt;h3 id=&quot;ubuntu软件安装与卸载&quot;&gt;&lt;a href=&quot;#ubuntu软件安装与卸载&quot; class=&quot;headerlink&quot; title=&quot;ubuntu软件安装与卸载&quot;&gt;&lt;/a&gt;ubuntu软件安装与卸载&lt;/h3&gt;&lt;figure class=&quot;highlight
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux下安装chromedriver</title>
-    <link href="http://yoursite.com/2018/06/10/Linux%E4%B8%8B%E5%AE%89%E8%A3%85chromedriver/"/>
-    <id>http://yoursite.com/2018/06/10/Linux下安装chromedriver/</id>
-    <published>2018-06-09T16:00:00.000Z</published>
-    <updated>2019-09-26T15:24:23.809Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight groovy&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python字典key替换</title>
-    <link href="http://yoursite.com/2018/06/09/python%E5%AD%97%E5%85%B8key%E6%9B%BF%E6%8D%A2/"/>
-    <id>http://yoursite.com/2018/06/09/python字典key替换/</id>
-    <published>2018-06-08T16:00:00.000Z</published>
-    <updated>2019-09-26T15:21:04.504Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight nimrod&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="爬虫" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB/"/>
-    
-    
-      <category term="Scrapy" scheme="http://yoursite.com/tags/Scrapy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>配置Django返回API接口</title>
-    <link href="http://yoursite.com/2018/06/08/%E9%85%8D%E7%BD%AEDjango%E8%BF%94%E5%9B%9EAPI%E6%8E%A5%E5%8F%A3/"/>
-    <id>http://yoursite.com/2018/06/08/配置Django返回API接口/</id>
-    <published>2018-06-07T16:00:00.000Z</published>
-    <updated>2019-09-26T15:14:29.788Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;1.settings.py中设置redis取数据&lt;/p&gt;
-&lt;figure class=&quot;highlight ebnf&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="后端" scheme="http://yoursite.com/categories/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-      <category term="Django" scheme="http://yoursite.com/tags/Django/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac快捷键和触控板使用</title>
-    <link href="http://yoursite.com/2018/06/05/%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%92%8C%E8%A7%A6%E6%8E%A7%E6%9D%BF/"/>
-    <id>http://yoursite.com/2018/06/05/快捷键和触控板/</id>
-    <published>2018-06-04T16:00:00.000Z</published>
-    <updated>2019-09-26T15:04:24.053Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight dockerfile&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Mac" scheme="http://yoursite.com/categories/Mac/"/>
-    
-    
-      <category term="Mac" scheme="http://yoursite.com/tags/Mac/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Django-models定义属性</title>
-    <link href="http://yoursite.com/2018/06/04/Django-models%E5%AE%9A%E4%B9%89%E5%B1%9E%E6%80%A7/"/>
-    <id>http://yoursite.com/2018/06/04/Django-models定义属性/</id>
-    <published>2018-06-03T16:00:00.000Z</published>
-    <updated>2019-09-26T15:13:00.410Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;pre&gt;&lt;code&gt;概述
-    ·django根据属性的类型确定以下信息
-        ·当前选择的数据库支持字段的类型
-        ·渲染管理表单时使用的默认html控件
-        ·在管理站点最低限度的验证
-   
-        
-      
-    
-    </summary>
-    
-    
-      <category term="后端" scheme="http://yoursite.com/categories/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-      <category term="Django" scheme="http://yoursite.com/tags/Django/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python创建Django项目流程</title>
-    <link href="http://yoursite.com/2018/06/03/python%E5%88%9B%E5%BB%BADjango%E9%A1%B9%E7%9B%AE%E6%B5%81%E7%A8%8B/"/>
-    <id>http://yoursite.com/2018/06/03/python创建Django项目流程/</id>
-    <published>2018-06-02T16:00:00.000Z</published>
-    <updated>2019-09-26T15:12:45.214Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;1.进入虚拟环境，查看当前django版本&lt;/p&gt;
-&lt;figure class=&quot;highlight clean&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="后端" scheme="http://yoursite.com/categories/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-      <category term="Django" scheme="http://yoursite.com/tags/Django/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python中把ISO-8859-1编码转化为UTF-8</title>
-    <link href="http://yoursite.com/2018/06/02/python%E4%B8%AD%E6%8A%8AISO-8859-1%E7%BC%96%E7%A0%81%E8%BD%AC%E5%8C%96%E4%B8%BAUTF-8/"/>
-    <id>http://yoursite.com/2018/06/02/python中把ISO-8859-1编码转化为UTF-8/</id>
-    <published>2018-06-01T16:00:00.000Z</published>
-    <updated>2019-09-26T13:25:30.062Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;当我们爬取一些页面的中文信息时，会出现如下情况：&lt;br&gt;&lt;img src=&quot;/2018/06/02/python中把ISO-8859-1编码转化为UTF-8/1.png&quot; alt&gt;&lt;br&gt;爬取的中文编码格式不是UTF-8,无法正常显示，查看编码格式：&lt;br&gt;&lt;img
+          &lt;p&gt;requests各种请求方式&lt;/p&gt;
+&lt;figure class=&quot;highlight powershell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
         
       
     
@@ -238,11 +43,11 @@
   </entry>
   
   <entry>
-    <title>Scrapy创建scrapy爬虫项目</title>
-    <link href="http://yoursite.com/2018/06/01/Scrapy%E5%88%9B%E5%BB%BAscrapy%E7%88%AC%E8%99%AB%E9%A1%B9%E7%9B%AE/"/>
-    <id>http://yoursite.com/2018/06/01/Scrapy创建scrapy爬虫项目/</id>
-    <published>2018-05-31T16:00:00.000Z</published>
-    <updated>2019-09-26T12:55:33.541Z</updated>
+    <title>Selenium使用</title>
+    <link href="http://yoursite.com/2018/09/15/Selenium%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2018/09/15/Selenium使用/</id>
+    <published>2018-09-14T16:00:00.000Z</published>
+    <updated>2019-10-18T13:16:55.791Z</updated>
     
     <summary type="html">
     
@@ -250,91 +55,9 @@
       
         
         
-          &lt;p&gt;1.在终端进入安装好依赖的虚拟环境，执行命令&lt;/p&gt;
-&lt;figure class=&quot;highlight mipsasm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="爬虫" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB/"/>
-    
-    
-      <category term="scrapy" scheme="http://yoursite.com/tags/scrapy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux下使用git</title>
-    <link href="http://yoursite.com/2018/05/28/Linux%E4%B8%8B%E4%BD%BF%E7%94%A8git/"/>
-    <id>http://yoursite.com/2018/05/28/Linux下使用git/</id>
-    <published>2018-05-27T16:00:00.000Z</published>
-    <updated>2019-09-26T15:23:52.201Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;安装&lt;/p&gt;
-&lt;figure class=&quot;highlight routeros&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
-    
-    
-      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python连接firebase云数据库</title>
-    <link href="http://yoursite.com/2018/05/26/python%E8%BF%9E%E6%8E%A5firebase%E4%BA%91%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    <id>http://yoursite.com/2018/05/26/python连接firebase云数据库/</id>
-    <published>2018-05-25T16:00:00.000Z</published>
-    <updated>2019-09-26T12:36:20.439Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;1.创建项目，点击启用，测试&lt;/p&gt;
-&lt;p&gt;2.将 Firebase Admin SDK 添加到您的 Python 应用中&lt;/p&gt;
-&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>xpath使用小技巧</title>
-    <link href="http://yoursite.com/2018/05/25/xpath%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    <id>http://yoursite.com/2018/05/25/xpath使用小技巧/</id>
-    <published>2018-05-25T12:26:29.000Z</published>
-    <updated>2019-09-26T12:48:33.153Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;/2018/05/25/xpath使用小技巧/3.png&quot; alt&gt;&lt;br&gt;xpath获取A下所有的子链接:  &lt;code&gt;//A/child::*/@href&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;xpath
+          &lt;p&gt;自动化测试工具，支持多种浏览器。爬虫中主要用来解决javaScrapt渲染的问题。&lt;br&gt;安装：pip install selenium,brew install chromedriver&lt;/p&gt;
+&lt;p&gt;基本使用&lt;/p&gt;
+&lt;figure class=&quot;highlight
         
       
     
@@ -347,11 +70,11 @@
   </entry>
   
   <entry>
-    <title>redis外部连接设置</title>
-    <link href="http://yoursite.com/2018/05/24/redis%E5%A4%96%E9%83%A8%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE/"/>
-    <id>http://yoursite.com/2018/05/24/redis外部连接设置/</id>
-    <published>2018-05-24T12:26:29.000Z</published>
-    <updated>2019-09-23T15:05:04.571Z</updated>
+    <title>pyquery使用</title>
+    <link href="http://yoursite.com/2018/09/12/pyquery%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2018/09/12/pyquery使用/</id>
+    <published>2018-09-11T16:00:00.000Z</published>
+    <updated>2019-10-18T13:15:51.572Z</updated>
     
     <summary type="html">
     
@@ -359,8 +82,200 @@
       
         
         
-          &lt;p&gt;1&amp;gt;注释掉bind &lt;code&gt;#bind 127.0.0.1&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;2&amp;gt;默认不是守护进程方式运行，这里可以修改 &lt;code&gt;daemonize
+          &lt;h2 id=&quot;初始化&quot;&gt;&lt;a href=&quot;#初始化&quot; class=&quot;headerlink&quot; title=&quot;初始化&quot;&gt;&lt;/a&gt;初始化&lt;/h2&gt;&lt;h3 id=&quot;字符串初始化&quot;&gt;&lt;a href=&quot;#字符串初始化&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="爬虫" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Beautiful soup使用</title>
+    <link href="http://yoursite.com/2018/09/11/Beautifulsoup%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2018/09/11/Beautifulsoup使用/</id>
+    <published>2018-09-10T16:00:00.000Z</published>
+    <updated>2019-10-18T13:24:18.392Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;解析器&lt;/th&gt;
+&lt;th&gt;使用方法&lt;/th&gt;
+&lt;th&gt;优势&lt;/th&gt;
+&lt;th&gt;劣势&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;Python标准库&lt;/td&gt;
+&lt;td&gt;BeautifulSoup(mark
+        
+      
+    
+    </summary>
+    
+    
+      <category term="爬虫" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>re正则表达式</title>
+    <link href="http://yoursite.com/2018/09/09/re%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>http://yoursite.com/2018/09/09/re正则表达式/</id>
+    <published>2018-09-08T16:00:00.000Z</published>
+    <updated>2019-10-18T13:10:46.814Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;常见匹配模式&quot;&gt;&lt;a href=&quot;#常见匹配模式&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="re正则" scheme="http://yoursite.com/categories/re%E6%AD%A3%E5%88%99/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python高效实用方法</title>
+    <link href="http://yoursite.com/2018/09/08/python%E9%AB%98%E6%95%88%E5%AE%9E%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>http://yoursite.com/2018/09/08/python高效实用方法/</id>
+    <published>2018-09-07T16:00:00.000Z</published>
+    <updated>2019-10-18T13:09:37.618Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;1.斐波那契数列(生兔子问题)&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python对数据的分解操作</title>
+    <link href="http://yoursite.com/2018/09/06/python%E5%AF%B9%E6%95%B0%E6%8D%AE%E7%9A%84%E5%88%86%E8%A7%A3%E6%93%8D%E4%BD%9C/"/>
+    <id>http://yoursite.com/2018/09/06/python对数据的分解操作/</id>
+    <published>2018-09-05T16:00:00.000Z</published>
+    <updated>2019-10-18T13:08:24.585Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;1.list&lt;/p&gt;
+&lt;figure class=&quot;highlight prolog&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>json编码</title>
+    <link href="http://yoursite.com/2018/09/04/json%E7%BC%96%E7%A0%81/"/>
+    <id>http://yoursite.com/2018/09/04/json编码/</id>
+    <published>2018-09-03T16:00:00.000Z</published>
+    <updated>2019-10-18T13:07:19.863Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;json.dumps() 将字典转化为字符串&lt;/p&gt;
+&lt;figure class=&quot;highlight ada&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="json" scheme="http://yoursite.com/categories/json/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>单例模式和装饰器</title>
+    <link href="http://yoursite.com/2018/09/03/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E5%92%8C%E8%A3%85%E9%A5%B0%E5%99%A8/"/>
+    <id>http://yoursite.com/2018/09/03/单例模式和装饰器/</id>
+    <published>2018-09-02T16:00:00.000Z</published>
+    <updated>2019-10-18T13:06:00.060Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;new方法实现单例模式&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>redis发送订阅</title>
+    <link href="http://yoursite.com/2018/09/02/redis%E5%8F%91%E9%80%81%E8%AE%A2%E9%98%85/"/>
+    <id>http://yoursite.com/2018/09/02/redis发送订阅/</id>
+    <published>2018-09-01T16:00:00.000Z</published>
+    <updated>2019-10-18T13:02:50.107Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;订阅者&lt;/p&gt;
+&lt;figure class=&quot;highlight ruby&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
         
       
     
@@ -375,11 +290,11 @@
   </entry>
   
   <entry>
-    <title>scrapy命令</title>
-    <link href="http://yoursite.com/2018/05/23/scrapy%E5%91%BD%E4%BB%A4/"/>
-    <id>http://yoursite.com/2018/05/23/scrapy命令/</id>
-    <published>2018-05-23T12:26:29.000Z</published>
-    <updated>2019-09-23T14:58:41.843Z</updated>
+    <title>Django接收前端返回的json格式数据</title>
+    <link href="http://yoursite.com/2018/08/29/Django%E6%8E%A5%E6%94%B6%E5%89%8D%E7%AB%AF%E8%BF%94%E5%9B%9E%E7%9A%84json%E6%A0%BC%E5%BC%8F%E6%95%B0%E6%8D%AE/"/>
+    <id>http://yoursite.com/2018/08/29/Django接收前端返回的json格式数据/</id>
+    <published>2018-08-28T16:00:00.000Z</published>
+    <updated>2019-10-18T13:01:02.960Z</updated>
     
     <summary type="html">
     
@@ -387,19 +302,258 @@
       
         
         
-          &lt;p&gt;查看是否成功&lt;code&gt;scrapy settings --get=BOT_NAME&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;打印信息 &lt;code&gt;scrapy crawl info&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;scrapy  crawl 
+          &lt;p&gt;post接收字符串&lt;/p&gt;
+&lt;figure class=&quot;highlight kotlin&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
         
       
     
     </summary>
     
     
-      <category term="爬虫" scheme="http://yoursite.com/categories/%E7%88%AC%E8%99%AB/"/>
+      <category term="web" scheme="http://yoursite.com/categories/web/"/>
     
     
-      <category term="scrapy" scheme="http://yoursite.com/tags/scrapy/"/>
+      <category term="Django" scheme="http://yoursite.com/tags/Django/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql命令</title>
+    <link href="http://yoursite.com/2018/08/26/mysql%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2018/08/26/mysql命令/</id>
+    <published>2018-08-25T16:00:00.000Z</published>
+    <updated>2019-10-18T12:31:20.756Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;检索数据&quot;&gt;&lt;a href=&quot;#检索数据&quot; class=&quot;headerlink&quot; title=&quot;检索数据&quot;&gt;&lt;/a&gt;检索数据&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;检索单个列: &lt;/p&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="mysql" scheme="http://yoursite.com/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Numpy数组</title>
+    <link href="http://yoursite.com/2018/08/18/Numpy%E6%95%B0%E7%BB%84/"/>
+    <id>http://yoursite.com/2018/08/18/Numpy数组/</id>
+    <published>2018-08-17T16:00:00.000Z</published>
+    <updated>2019-10-18T12:52:47.734Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;内容参考:&lt;a href=&quot;https://blog.csdn.net/u011995719/article/details/71080987&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Numpy库常用函数大全&lt;/a&gt;&lt;/p&gt;
+&lt;h4
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Numpy" scheme="http://yoursite.com/categories/Numpy/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>pandas连接mysql数据库</title>
+    <link href="http://yoursite.com/2018/08/17/pandas%E8%BF%9E%E6%8E%A5mysql%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>http://yoursite.com/2018/08/17/pandas连接mysql数据库/</id>
+    <published>2018-08-16T16:00:00.000Z</published>
+    <updated>2019-10-18T12:46:37.091Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;安装&lt;/p&gt;
+&lt;figure class=&quot;highlight cmake&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Flask,Tornado创建</title>
+    <link href="http://yoursite.com/2018/08/16/Flask-Tornado%E5%88%9B%E5%BB%BA/"/>
+    <id>http://yoursite.com/2018/08/16/Flask-Tornado创建/</id>
+    <published>2018-08-15T16:00:00.000Z</published>
+    <updated>2019-10-18T12:59:22.637Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="web" scheme="http://yoursite.com/categories/web/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Telegram Client 开发</title>
+    <link href="http://yoursite.com/2018/08/16/%E5%BC%80%E5%8F%91/"/>
+    <id>http://yoursite.com/2018/08/16/开发/</id>
+    <published>2018-08-15T16:00:00.000Z</published>
+    <updated>2019-10-18T12:43:28.150Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;可查阅&lt;a href=&quot;http://telethon.readthedocs.io/en/stable/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;telegram文档&lt;/a&gt;&lt;br&gt;安装&lt;/p&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+    
+      <category term="telegram" scheme="http://yoursite.com/categories/telegram/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>win下安装mysql报错发生系统错误2</title>
+    <link href="http://yoursite.com/2018/08/09/2/"/>
+    <id>http://yoursite.com/2018/08/09/2/</id>
+    <published>2018-08-08T16:00:00.000Z</published>
+    <updated>2019-10-18T12:39:04.489Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;以管理员身份打开&lt;/p&gt;
+&lt;figure class=&quot;highlight livescript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据库默认端口号</title>
+    <link href="http://yoursite.com/2018/08/07/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%BB%98%E8%AE%A4%E7%AB%AF%E5%8F%A3%E5%8F%B7/"/>
+    <id>http://yoursite.com/2018/08/07/数据库默认端口号/</id>
+    <published>2018-08-06T16:00:00.000Z</published>
+    <updated>2019-10-18T12:34:45.686Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;关系型数据库&lt;/p&gt;
+&lt;p&gt;Oracle: 1521&lt;br&gt;SQL Server: 1433&lt;br&gt;MySQL: 3306&lt;br&gt;pointbase: 9092&lt;br&gt;DB2: 5000&lt;br&gt;PostgreSQL:
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python连接mysql</title>
+    <link href="http://yoursite.com/2018/08/04/python%E8%BF%9E%E6%8E%A5mysql/"/>
+    <id>http://yoursite.com/2018/08/04/python连接mysql/</id>
+    <published>2018-08-03T16:00:00.000Z</published>
+    <updated>2019-10-18T12:29:06.661Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;启动mysql&lt;br&gt;netstat -apn | grep mysql&lt;br&gt;用mysql先创建一张表tele&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="mysql" scheme="http://yoursite.com/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python连接redis和mongo数据库</title>
+    <link href="http://yoursite.com/2018/08/03/python%E8%BF%9E%E6%8E%A5redis%E5%92%8Cmongo%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>http://yoursite.com/2018/08/03/python连接redis和mongo数据库/</id>
+    <published>2018-08-02T16:00:00.000Z</published>
+    <updated>2019-10-18T12:25:33.943Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;python连接redis&lt;/p&gt;
+&lt;figure class=&quot;highlight xquery&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="redis，mongo" scheme="http://yoursite.com/tags/redis%EF%BC%8Cmongo/"/>
     
   </entry>
   
